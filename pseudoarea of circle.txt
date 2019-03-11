@@ -1,0 +1,7 @@
+1.enter radius of circle;
+2.
+begin
+   int r;
+AREA=3.14*r*r;
+display="area of circle="<<AREA;
+end

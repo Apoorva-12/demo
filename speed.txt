@@ -1,0 +1,25 @@
+#include <iostream>
+
+
+using namespace std;
+
+
+int main()
+
+{
+
+ int S,D;
+
+ float T;
+
+ cout<<"enter the values of speed and distance";
+
+ cin>>S>>D;
+
+ T=D/S;
+
+ cout<<"time taken="<<T;
+
+ return 0;
+
+}

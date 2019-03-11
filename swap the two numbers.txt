@@ -1,0 +1,19 @@
+    
+1.enter a=10, b=20; 
+begin     
+2.accept the numbers;      
+3.a=a+b;//a=30 (10+20)    
+4.b=a-b;//b=10 (30-20)    
+5.a=a-b;//a=20 (30-10)    
+6.printf("\nAfter swap a=%d b=%d",a,b); 
+end   
+return 0;
+
+********************************************************************************************************
+1.enter the two numbers;
+2.accept the two numbers;
+3.a=a+b;
+ b=a-b;
+a=a-b;
+display a and b; 
+  

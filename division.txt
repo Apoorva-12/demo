@@ -1,0 +1,25 @@
+#include <iostream>
+
+
+using namespace std;
+
+
+int main()
+
+
+{
+   
+ int a,b,quo,rem;
+  
+  cout<<"enter the two numbers";
+  
+  cin>>a>>b;
+   
+ quo=a/b;
+   
+ cout<<"quotient="<<quo;
+  
+  
+return 0;
+
+}

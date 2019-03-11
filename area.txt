@@ -1,0 +1,32 @@
+#include <iostream>
+
+
+using namespace std;
+
+
+int main()
+
+{
+
+    int l,b,s,AREAr,AREAs;
+
+    cout<<"enter the length and breadth of a rectangle";
+
+    cin>>l>>b;
+
+    AREAr=l*b;
+
+    cout<<"area of rectangle="<<AREAr;
+
+    cout<<"enter side of square";
+
+    cin>>s;
+
+    AREAs=s*s;
+ 
+   cout<<"area of square"<<AREAs;
+
+
+return 0;
+
+}

@@ -1,0 +1,27 @@
+#include <iostream>
+
+
+using namespace std;
+
+
+int main()
+
+{
+
+    int a,b,c,d,e,f,sum,avg;
+
+    cout<<"enter the six numbers";
+
+    cin>>a>>b>>c>>d>>e>>f;
+
+    sum=a+b+c+d+e+f;
+
+    cout<<"sum="<<sum;
+ 
+   avg=(a+b+c+d+e+f)/5;
+
+    cout<<"average="<<avg;
+
+    return 0;
+
+}

@@ -1,0 +1,27 @@
+Perfect no. or not..pseudo code-
+1.enter a number a and sum=0,i;
+2.accept a number and sum=0,i;
+3.for loop(i=1;i<a/2;i++)
+4.if(a%2==0);
+5.sum=sum+i;
+6.display perfect no.
+7.else
+display not a perfect no.
+
+**************************************************************************************************************************
+1.enter a number a and sum=0,i;
+2.accept a number and sum=0,i;
+3.begin
+     for(i=1,i<=a/2,i++)
+{
+    if(a%1==0)
+{   
+     sum=sum+i;
+}
+    if(sum=a)
+{
+cout<<"perfetct no."
+}
+else
+  cout<<"not a perfect no."
+end

@@ -1,0 +1,5 @@
+1.initialize the radius of circle r.
+2.enter the radius of circle.
+3.accept the radius of circle.
+4.AREA=3.14*r*r;
+5.display AREA;

@@ -1,0 +1,27 @@
+pseudo code for finding lowest out of three:
+1.enter three numbers a,b,c;
+2.accept three numbers a,b,c;
+3.use if loop for condition;
+  begin
+4.if a is greater than b;
+{
+  if a is greater then c;
+   then a is largest;
+   else 
+     c is largest;
+else if(b>c)
+   cout<<"largest is b";
+else
+   cout<<"largest is c";
+end
+
+*********************************************************************************************
+Algorithm-
+1.enter the three numbers;
+2.accept the three numbers;
+3.using if condition compare the three numbers one by one;
+4.if first number is greater than second no.and condition is true then check
+5.if first no. is greater than third no.the fist is greatest.
+6.if second no. is greater then third then largest is b
+  else
+  largest is c

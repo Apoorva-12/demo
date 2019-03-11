@@ -1,0 +1,28 @@
+Check if given number is perfect square:
+
+1.Take the square root of the number and i.
+2.use for loop and run the loop till given number.
+3.use if condition and if(i*i==n)
+4.display it is a perfect square.
+5.else display it is not a perfect square;
+
+****************************************************************************************************************
+1.take the square root of a number.
+begin
+if(i=1;i<=n;i++)
+{
+if(i*i==n)
+{
+cout<<"perfect square";
+break;
+}
+else
+{
+if(i==n)
+{
+cout<<"not a perfect no.";
+break;
+}
+}
+}end
+end
