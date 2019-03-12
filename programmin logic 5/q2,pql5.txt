@@ -1,0 +1,68 @@
+
+#include <iostream>
+
+
+using namespace std;
+
+int main()
+
+{
+
+
+
+
+int i,j,n,sum=0;
+
+float avg;
+
+cout<<"enter elements in array";
+
+cin>>n;
+
+int a[n];
+
+
+for(i=0;i<=n;i++)
+
+{
+
+cout<<"enter an array"<<i+1<<";";
+
+cin>>a[n];
+
+}
+
+for(i=1;i<=n;i++)
+
+{
+
+sum=sum+i;
+
+}
+
+cout<<"sum="<<sum;
+
+avg=sum/n;
+
+
+cout<<"average="<<avg;
+
+
+for(i=1;i<=n;i++)
+
+{
+
+if(a[i]>avg)
+
+{
+   
+ for(i=0;i<=n;i++)
+ 
+   
+cout<<a[i];
+
+}
+
+}
+
+}

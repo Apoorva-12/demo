@@ -1,0 +1,48 @@
+int main()
+
+{
+  
+  int sum=0,i,n,avg;
+   
+ cout<<"enetr the elements";
+ 
+   cin>>n;
+ 
+   float A[n];
+ 
+   for(i=0;i<n;i++)
+  
+  {
+     
+   cout<<"eneter the array elements="<<i+1<<":";
+ 
+       cin>>A[i];
+  
+  }
+  
+  for(i=1;i<=n;i++)
+ 
+   {
+       
+ sum=sum+i;
+  
+  }
+   
+ cout<<"sum="<<sum;
+    
+
+    avg=sum/n;
+  
+  cout<<"average="<<avg;
+
+
+return 0;
+
+}
+
+    
+    
+    
+    
+    
+    

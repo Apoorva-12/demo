@@ -1,0 +1,61 @@
+
+#include <iostream>
+
+#include <conio.h>
+
+
+using namespace std;
+
+
+
+int res;
+
+int sum(int,int);
+
+int sub(int,int);
+
+int main()
+
+{
+
+
+int a,b,su,s;
+
+
+cout<< "Enter two numbers ";
+
+cin>>a>>b;
+
+
+s=sum(a,b);
+
+su=sub(a,b);
+
+cout<<"Sum:"<<s<<"Subtraction:"<<su;
+getch();
+
+return 0;
+
+}
+
+
+int sum(int a,int b)
+
+{
+
+res=a+b;
+
+return(res);
+
+}
+
+
+int sub(int a,int b)
+
+{
+
+res=a-b;
+
+return(res);
+
+}

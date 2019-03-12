@@ -1,0 +1,257 @@
+#include <iostream>
+
+
+using namespace std;
+
+int main()
+
+{
+   
+ int i,j,n1,n2,temp3,temp2,temp,n3;
+ 
+ 
+  cout<<"enter the elements of first array";
+ 
+
+   cin>>n1;
+
+  
+  int a[n1];
+
+  
+  for(i=0;i<n1;i++)
+
+ 
+   {
+  
+  
+cout<<"enter the element"<<i+1<<":";
+ 
+ 
+  cin>>a[n1];
+
+  
+  }
+ 
+   
+
+    for(i=0;i<n1;i++)
+
+
+	{	
+
+
+	
+	
+	for(j=i+1;j<n1;j++)
+
+
+
+		{
+
+	
+		if(a[i]>a[j])
+
+	
+		{
+
+
+				temp  =a[i];
+
+
+				a[i]=a[j];
+
+
+				a[j]=temp;
+
+			
+}
+	
+	
+}
+
+	
+}
+	
+cout<<"Sorted (Ascending Order) Array elements:"<<endl;
+	
+for(i=0;i<n2;i++)
+
+	
+	cout<<a[i]<<"\t";
+
+
+
+	cout<<endl;
+	
+}
+
+
+{
+  
+  
+   cout<<"enter the elements of second array";
+ 
+
+   cin>>n2;
+ 
+ 
+  int a[n2];
+  
+
+  for(i=0;i<n2;i++)
+
+
+    {
+  
+ 
+ cout<<"enter the element"<<i+1<<":";
+ 
+
+
+   cin>>a[n2];
+  
+
+  }
+    
+
+
+    for(i=0;i<n2;i++)
+
+
+	{	
+
+	
+	
+	for(j=i+1;j<n2;j++)
+
+
+	
+	{
+	
+		
+if(a[i]>a[j])
+
+	
+		
+{
+
+				
+temp2 =a[i];
+
+	
+			
+a[i]=a[j];
+
+		
+		a[j]=temp2;
+	
+		}
+
+	
+	}
+
+
+	}
+
+	cout<<"Sorted (Ascending Order) second Array elements:"<<endl;
+	
+for(i=0;i<n2;i++)
+
+	
+	cout<<a[i]<<"\t";
+
+
+
+	cout<<endl;	
+
+}
+
+}
+ 
+   
+ 
+   cout<<"enter the elements of merge array";
+
+ 
+   cin>>n3;
+ 
+ 
+  int a[n3];
+  
+
+  for(i=0;i<n3;i++)
+
+
+    {
+  
+
+  cout<<"enter the element"<<i+1<<":";
+
+ 
+   cin>>a[n3];
+  
+ 
+ }
+ 
+ temp3=temp1+temp2;
+ 
+   
+
+    for(i=0;i<n3;i++)
+
+
+	{	
+	
+
+	
+	
+for(j=i+1;j<n3;j++)
+
+
+		{
+	
+
+		if(a[i]>a[j])
+
+	
+		{
+
+
+				temp3=a[i];
+
+	
+			a[i]=a[j];
+
+
+				a[j]=temp3;
+	
+		}
+	
+
+	}
+
+	
+}
+	
+cout<<"Sorted (Ascending Order) merge Array elements:"<<endl;
+
+	for(i=0;i<n3;i++)
+
+	
+	cout<<a[i]<<"\t";
+
+
+
+	
+cout<<endl;	
+
+}
+
+}
+
+
+
+
+
+
